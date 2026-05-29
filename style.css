@@ -55,17 +55,28 @@ nav a:hover{
 
 /* TYPOGRAPHY */
 h1{
-    font-size: 2rem;
+   
+    font-family: "Arial", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
+
 
 h2{
     margin-bottom: 10px;
 }
 
 p{
+    
+    font-family: "Arial", sans-serif;
     font-size: 1rem;
-    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
 }
+
 
 /* FOOTER */
 footer{
