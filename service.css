@@ -1,0 +1,102 @@
+/* Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef4fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Heading */
+.container h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+/* Services List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f0f8ff;
+    margin: 12px 0;
+    padding: 15px;
+    border-left: 6px solid #0056b3;
+    border-radius: 6px;
+    font-size: 17px;
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: translateX(8px);
+}
+
+/* Paragraph */
+.container p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
