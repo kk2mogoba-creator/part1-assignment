@@ -5,3 +5,4 @@ the colours and the design of the webpages. it also consists of a logo of the Ed
 The project consists of a specific css code for each webpage.
 the home page has a colour scheme of blue and white through out.
 The project will also contain SEO meta tags as well as functions like buttons to send message.
+The project will also consist of validation process in the COntact page.
