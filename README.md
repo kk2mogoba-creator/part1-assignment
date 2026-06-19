@@ -4,3 +4,4 @@ It contists of the home, about,contact and service webpages, as well as a coded 
 the colours and the design of the webpages. it also consists of a logo of the Edu-Connect.
 The project consists of a specific css code for each webpage.
 the home page has a colour scheme of blue and white through out.
+The project eill also contain SEO meta tags as well as functions like buttons to send message.
